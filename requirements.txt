@@ -1,0 +1,12 @@
+# Python 3.10（与 ROS2 Humble 的 Python 版本一致）
+langgraph>=0.2.60,<2.0
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.29,<1.0
+pydantic>=2.7,<3.0
+pydantic-settings>=2.3,<3.0
+redis>=5.0,<7.0
+httpx>=0.27,<1.0
+loguru>=0.7,<1.0
+
+# rclpy / nav2_msgs / geometry_msgs / nav_msgs / sensor_msgs 由 ROS2 环境提供，
+# 不通过 pip 安装。Ubuntu 22.04 + ROS2 Humble 安装方式见 README。
